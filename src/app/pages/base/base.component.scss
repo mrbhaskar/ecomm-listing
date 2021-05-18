@@ -1,0 +1,19 @@
+.data-row {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+
+  .card-wrap {
+    width: 22%;
+
+    mat-card {
+      cursor: pointer;
+      img {
+        width: 80%;
+        margin-left: 15px;
+        margin-right: auto;
+      }
+    }
+  }
+}
